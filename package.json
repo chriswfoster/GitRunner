@@ -6,9 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chriswfoster/GitRunner.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chriswfoster/GitRunner/issues"
+  },
+  "homepage": "https://github.com/chriswfoster/GitRunner#readme",
   "dependencies": {
     "@vercel/ncc": "^0.28.6",
     "lodash": "^4.17.21"

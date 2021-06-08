@@ -11,5 +11,5 @@ export const hander = async (event, ) => {
         statusCode: 200,
         body: JSON.stringify(`WATAP, random val : ${val}`)
     }
-    return response;
+    return response; 
 };
