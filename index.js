@@ -9,7 +9,7 @@ export const hander = async (event, ) => {
 
     const response = {
         statusCode: 200,
-        body: JSON.stringify(`WATAP, spessibo random val : ${val}`)
+        body: JSON.stringify(`WATAP, random val : ${val}`)
     }
     return response; 
 };
