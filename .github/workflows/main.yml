@@ -2,21 +2,21 @@ name: Deploy
 
 on:
   push:
-      branches:
+    branches:
       - master
 
-jobs: 
+jobs:
   deploy_lambda:
     runs-on: ubuntu-latest
-    steps: 
-    # - name: Checkout
+    steps:
+      # - name: Checkout
       - uses: actions/checkout@v2
-    # - name: Setup
+      # - name: Setup
       - uses: actions/setup-node@v2
         with:
-          node-version: '12'
+          node-version: "12"
       - name: npm install
-       env: 
-        CI: true
-        run: | 
+        env:
+          CI: true
+        run: |
           npm ci
