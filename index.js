@@ -8,7 +8,7 @@ export const handler = async (event) => {
 
     const response = {
         statusCode: 200,
-        body: JSON.stringify(`WATAP, random val : ${val}`)
+        body: JSON.stringify(`WATAP, priviet random val : ${val}`)
     }
     return response; 
 };
