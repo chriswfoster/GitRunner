@@ -1,7 +1,7 @@
 import * as _ from 'lodash';
 import {APIGatewayProxyEvent, APIGatewayProxyResultV2, Handler} from 'aws-lambda';
 
-export const hander = async (event, ) => {
+export const handler = async (event) => {
     const max = 10;
     const val = _.random(max);
 
